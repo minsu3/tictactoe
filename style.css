@@ -1,0 +1,81 @@
+h1 {
+	font-size: 50px;
+	text-align: center;
+	font-family: Bangers;
+}
+body {
+	background-color: #d1fffe;
+}
+table {
+	border: 1px solid black;
+	border-width: thin;
+	width: 260px;
+	height: 80px;
+	background-color: #ffd788;
+
+}
+#p1 {
+	float: left;
+	margin-left:  300px;
+}
+#p2 {
+	float: right;
+	margin-right: 300px;
+}
+#boxone {
+	width: 150px;
+	font-size: 70px;
+	text-align: center;
+}
+#boxtwo {
+	width: 150px;
+	font-size: 70px;
+	text-align: center;
+}
+.leftscore {
+	float: left;
+	margin-left:  100px;
+}
+.rightscore {
+	float: right;
+	margin-right: 100px;
+}
+th {
+	border: 1px solid black;
+	border-width: thin;
+	height: 80px;
+	background-color: #d0d2da;
+	max-width: 80px;
+	min-width: 80px;
+}
+button {
+	margin-left: auto;
+	margin-right: auto;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.indicator {
+	border-color: #ffd788;
+	background-color: #ffd788;
+}
+
+.row th:hover {
+	cursor: pointer;
+	background-color: gray;
+
+
+	/* show X or O depending on player */
+}
+
+.wrapper {
+    text-align: center;
+}
+
+#refresh {
+    margin-top: 80px;
+}
+
+
